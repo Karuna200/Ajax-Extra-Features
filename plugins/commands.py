@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 SERIES GROUP 💠', url='https://t.me/cw_TV_Series'),
-            InlineKeyboardButton('💠 MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
+            InlineKeyboardButton('💠 SERIES GROUP', url='https://t.me/cw_TV_Series'),
+            InlineKeyboardButton('MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
             ],[      
-            InlineKeyboardButton('♻️ BOT FEATURES ♻️', url='https://t.me/TVSeriesCW/795'),
-            InlineKeyboardButton('🔥 OUR CHANNELS 🔥', url='https://t.me/TVSeriesCW/1618')
+            InlineKeyboardButton('♻️ BOT FEATURES', url='https://t.me/TVSeriesCW/795'),
+            InlineKeyboardButton('OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
             ],[
             InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/tvseriescw')
         ]]         
@@ -91,11 +91,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 SERIES GROUP 💠', url='https://t.me/cw_tv_series'),
-            InlineKeyboardButton('💠 MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
+            InlineKeyboardButton('💠 SERIES GROUP', url='https://t.me/cw_tv_series'),
+            InlineKeyboardButton('MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
             ],[      
-            InlineKeyboardButton('♻️ BOT FEATURES ♻️', url='https://t.me/TVSeriesCW/795'),
-            InlineKeyboardButton('♻️ OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
+            InlineKeyboardButton('♻️ BOT FEATURES', url='https://t.me/TVSeriesCW/795'),
+            InlineKeyboardButton('OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
             ],[
             InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/TVSeriesCW')
         ]]
