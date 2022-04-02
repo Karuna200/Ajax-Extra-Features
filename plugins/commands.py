@@ -50,7 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ BOT FEATURES', url='https://t.me/TVSeriesCW/795'),
             InlineKeyboardButton('OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
             ],[
-            InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/tvseriescw')
+            InlineKeyboardButton('💫 MUST JOIN MAIN CHΛИИΞL 💫', url='https://t.me/tvseriescw')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -97,7 +97,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ BOT FEATURES', url='https://t.me/TVSeriesCW/795'),
             InlineKeyboardButton('OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
             ],[
-            InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/TVSeriesCW')
+            InlineKeyboardButton('💫 MUST JOIN MAIN CHΛИИΞL 💫', url='https://t.me/TVSeriesCW')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
