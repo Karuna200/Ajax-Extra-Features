@@ -44,13 +44,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/TVSeriesCW'),
-            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/CW_TV_Series')
+            InlineKeyboardButton('💠 SERIES GROUP 💠', url='https://t.me/cw_TV_Series'),
+            InlineKeyboardButton('💠 MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ BOT FEATURES ♻️', url='https://t.me/TVSeriesCW/795'),
+            InlineKeyboardButton('🔥 OUR CHANNELS 🔥', url='https://t.me/TVSeriesCW/1618')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/MrperfectOffcial')
+            InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/tvseriescw')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -91,13 +91,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/TVSeriesCW'),
-            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/cw_tv_series')
+            InlineKeyboardButton('💠 SERIES GROUP 💠', url='https://t.me/cw_tv_series'),
+            InlineKeyboardButton('💠 MOVIE GROUP 💠', url='https://t.me/heavenofmovies')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ BOT FEATURES ♻️', url='https://t.me/TVSeriesCW/795'),
+            InlineKeyboardButton('♻️ OUR CHANNELS ♻️', url='https://t.me/TVSeriesCW/1618')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://t.me/MrperfectOffcial')
+            InlineKeyboardButton('MUST JOIN MAIN CHΛИИΞL', url='https://t.me/TVSeriesCW')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
